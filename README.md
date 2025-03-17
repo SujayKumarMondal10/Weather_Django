@@ -1,12 +1,4 @@
 # Weather-App-Django
-This repository implements a weather app that uses Open Weather API and Django as a backend framework and deployment using heroku.
-
-<h3>Important Links</h3>
-<ul>
-<li><a href="https://devcenter.heroku.com/articles/getting-started-with-python">Deployment using Heroku</a></li>
-<li><a href="https://openweathermap.org/api">Open Weather API</a></li>
-<li><a href="https://github.com/mdn/django-locallibrary-tutorial">MDN Docs</a></li>
-</ul>
 
 
 ## Summary Workflow
@@ -64,26 +56,3 @@ The following is a basic workflow that you can use as a quick reference for deve
 1. Find the common parts of each page (i.e., header, sidebar, footer).
 2. Add these parts to a base template
 3. Create specific. templates that inherent from the base template.
-
-### Heroku Hosting
-- Copy the project seperately
-- Go to 'Getting Started on Heroku with Python'
-- Create an Heroku account
-- install pipenv
-- Install git ( check git --version)
-- Install Heroku CLI
-- Login heroku
-- Create a virtual enviroment
-- Run manage.py not gonna run - pip freeze nothing installing
-- Check which version django,requests you have and install it
-- Run manage.py and then stop it
-- Go to django heroku
-- Create a Procfile and
-- Install django-heroku
-- Add stuff to settings.py file
-- Install guincorn
-- pip freeze > requirements.txt
-- heroku create <name> (to create an app on heroku)
-- git status git commands (git push heroku master)
-- Open up the website
-- Admin panel not working. heroku run bash. Migrations
